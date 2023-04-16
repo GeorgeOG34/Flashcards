@@ -7,5 +7,21 @@ ComputerSystems.txt
 IntroToAI.txt 
 TheoryOfComputing.txt
 
-In those files, One line is one side of a flashcard. So on the first like put a question, second line answer to that question, third line repeat.
-And that is pretty much it at the moment.
+## How to make a flashcard:
+I have created a "markup language" type thing to help make the formating of flashcards easier.
+You still save the flashcard questions and answers in the same textfile
+Here is the current syntax:
+
+<break>  -- moves on to the next card, this needs to be between every question and answer. acts as <br> in html
+<line> -- puts test onto a new line. acts as "\n" in regex
+
+## Here is an example:
+
+This is a question<break>
+This is the answer on the first line<line>this is the answer on the second line
+<line>
+
+This is the third line.
+This is stil the third line
+<line>
+This it the 4th line
