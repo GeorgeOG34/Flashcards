@@ -1,0 +1,132 @@
+What law is this: (x ^ y) = (y ^ x)<break> 
+Commutative law<break>
+What law is this: (x ^(y ^ z)) = ((x ^ y) ^ z)<break>
+Associative law<break>
+What law is this: (X ^ (Y v Z)) = (X ^ Y) v (X ^ Z)<break>
+Distibutive law<break>
+What law is this: ¬(x ^ y) = ¬(x) v ¬(y)<break>
+De Morgan Law<break>
+Convert 20 (00010100) to -20 using twos complement
+<break>
+11101100
+<break>
+How does the multiplexor work
+<break>
+If the selector == 0 then the out put is a<line>
+else the output is b
+<break>
+How does the dmux work?
+<break>
+if (sel==0)<line>
+    {a,b}={in,0}<line>
+else<line>
+    {a,b}={0,in}<line>
+<break>
+Make a half adder using only Not, and, or and xor gates.
+<break>
+It uses A Xor and an And gate
+<line>
+It should look like this: https://t.ly/B_jTQ
+<break>
+What does the full adder do?
+<break>
+Computes the sum of three bits.<line>
+INPUT: a, b, c;  // 1-bit inputs<line>
+OUTPUT: sum,     // Right bit of a + b + c<line>
+OUTPUT: carry;   // Left bit of a + b + c<line>
+<break>
+Add the following two:
+<line>
+00000101 +<line>
+00011110 
+<break>
+0100011
+<break>
+Give some primitive and OS data types in the Jack language
+<break>
+primitive:<line>
+- int <line>
+- char <line>
+- boolean <line>
+OS:<line>
+- Array<line>
+- String (fixed in length)<line>
+- Additional abstract data types
+<break>
+What are the three types of jack subroutines?
+<break>
+methods <line>
+constructors - called when object is made<line>
+functions <line>
+<line>
+All subroutines must end with a return command.
+<break>
+Talk about memory management in jack<break>
+There is no garbage collection like in java<line>
+So objects must be disposed manually.
+<break>
+Talk about 1 tier vs 2 tier compilation
+<break>
+1-tier compilation is where you take a high level program and<line>
+make acompiler for a specific device
+<line>
+<line>
+2-tier compilation involves for example:
+<line>
+java program -> java compiler -> VM code (bytecode) -> <line>
+Which can then be used on any device<line>
+Usually by using a VM emulator or translator
+<break>
+convert the following into VM Code:
+<line>
+d=(2-x)+(y+9)
+<break>
+push 2<line>
+push x<line>
+sub <line>
+push y <line>
+push 9 <line>
+add <line>
+add <line>
+pop d <line>
+<break>
+convert the following into VM Code:
+<line>
+(x<7) or (y==8)
+<break>
+push x <line>
+push 7 <line>
+lt <line>
+push y <line>
+push 8 <line>
+eq <line>
+or <line>
+<break>
+give a list of memory segments (kinds)
+<break>
+Argument (variables provided by caller)<line>
+local (variable local to the callee) <line>
+static (variable which comes into existence at program startup)<line>
+this <line>
+that <line>
+constant (e.g. a number) <line>
+pointer <line>
+temp <line>
+<break>
+translate the let instruction into full vm code:
+<line>
+<line>
+class Foo {<line>
+   static int s1, s2;<line>
+   function int bar (int x, int y) {<line>
+      var int a, b, c;<line>
+      ...<line>
+      let c = s1 + y;<line>
+      ... <line>
+   }<line>
+}<line>
+<break>
+push static 0<line>
+push argument 1 <line>
+add<line>
+pop local 2 <line>

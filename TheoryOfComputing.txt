@@ -1,0 +1,8 @@
+What law is this: (xAnd y) = (yAnd x) 
+Commutative law
+What law is this: (xAnd (yAnd z)) = ((xAnd y) And z)
+Associative law
+What law is this: (xAnd (yOr z)) = (xAnd y) Or (xAnd z)
+Distibutive law
+What law is this: Not(xAnd y) = Not(x) Or Not(y)
+De Morgan Law

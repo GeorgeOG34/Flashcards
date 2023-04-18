@@ -1,0 +1,94 @@
+Describe Extreme programming.
+<break>
+• Engineering practices drive the process <line> 
+• Programming in pairs, extensive code review<line>
+• Frequent releases<line>
+• Test all code! Test-Driven Development (TDD)<line>
+• Don’t implement features until they are needed (YAGNI)<line>
+• Continuous integration, always have a running system<line>
+• Heavy reliance on frequent communication<line>
+<break>
+Decribe the waterfall methodology <break>
+Product and manager focused, inflexible, multi-stage <line>process<line>
+1. Gather requirements<line>
+2. Analyze and design<line>
+3. Programming<line>
+4. Testing<line>
+5. Deployment<break>
+Give the difference between method focused on engineers and <line>managers?<break>
+• Engineer: focus on tools and code<line>
+• Manager: focus on team structure and bureaucracy<line>
+<break>
+Define the difference between methodologies focused<line>on product and process<break>
+• Product: work based on a specification<line>
+• Process: continually adapt as work goes on
+<break>
+What are the three pillars of the scrum methodology?
+<break>
+• Transparency: Everybody knows what’s going on<line>
+• Inspection: Check your work as you are doing it<line>
+• Adaptation: Adjust the direction when needed<line>
+<break>
+What the two categories of testing?
+<break>
+Functional testing: Tests the functionality and ensure<line>everything works as intended<line>
+Non-functional testing: evaluates the performance, <line>accessability, user interface design, etc.<line>
+<break>
+Give 4 ways errors occur.
+<break>
+• Mistake – following a bad plan
+This algorithm isn’t<line>actually going to sort a list.<line>
+• Failure – error in translation from plan to reality The       algorithm is correct but Implemented it incorrectly.<line>
+• Slip – mechanical error when writing code
+Syntax error<line>or off-by-one error in array access. <line>
+• Malfunction – hardware failure or error in dependencies Wrong data received in network communication.<line>
+<break>
+Give some Joel tests<break>
+• Do you use source control?<line>
+• Can you make a build in one step?<line>
+• Do you make daily builds?<line>
+• Do you have a bug database?<line>
+• Do you fix bugs before writing new code?<line>
+• Do you have an up-to-date schedule?<line>
+• Do you have a spec?<line>
+• Do programmers have quiet working conditions?<line>
+• Do you use the best tools money can buy?<line>
+• Do you have testers?<line>
+• Do new candidates write code during their Interview?<line>
+• Do you do hallway usability
+testing?<line>
+<break>
+What is the scrum process?
+<break>
+There is a backlog of user stories to implement. There is planning for which user story to implement based on<line> value x effort. Sprints add functionality of a user story in one or two weeks.<line>"With scrum a product is built in aseries of iterations <line>called sprints that break down big projects into bite <line>sized pieces."
+<break>
+give a timeline of continuous integration
+<break>
+1.create new branch<line>
+2.push code changes<line>
+3.automated build and tests<line>
+4.push code fixes<line>
+5. automated build and tests<line>
+6.repeat 4/5 until all tests are passed<line>
+7. review and approve<line>
+8. merge back into main branch<line>
+9. continous deployment (automated build, test, deploy)<line>
+<break>
+What is the red-green-refactor method process IN TDD
+<break>
+When you write a test it will initially fail (red). After, you<line>will write the code to make the test pass (green).<line>Eventually, you will update/modify the code while making sure the tests still pass
+(refactor).
+<break>
+Describe a gantt chart (y axis, x axis)
+<break>
+A gant chart has the time period (normally dates) on the x axis. And a list of tasks on the y axis. Horizontal bars are then plotted to display when a task starts and ends.<line>Aditional optional columns on the y axis could include, a %, start date, finish date, and who is assigned to do it.
+<break>
+What are three principles of software engineering?
+<break>
+1. Building a programming systems product is 9x harder<line>than building a program<line>
+2.no single development leads to magnitudes of <line>improvement in productivity/reliability  <line>
+3.adding manpower to a late project makes it later
+<break>
+What are the 4 reasons for failure?
+<break>
+hardware, software, human & organisational.

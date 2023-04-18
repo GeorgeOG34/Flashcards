@@ -1,0 +1,53 @@
+What are the rules of XML?
+<break>
+1).Everytag must have a matching closing tag or be self<line>closing.<line>
+2).All tags must be properly nested with no overlapping or intersecting tags, e.g. <b><i>web</i></b>
+<line>3).Attribute values must be enclosed in quotes in the <line>opening tag.<line>
+4). XML tags and attributes are case<line>sensitive<line>
+5). the document must have a single root element
+<break>
+Talk about XML Validation
+<break>
+To validate an XML document it needs to be checked <line>against a "Document Type<line>Definition" or an "XML Schema Definition". The process <line>involves comparing the strucure and content of the xml <line>document to the rules defined in<line>the schema or DTD. It is useful as it helps to ensure<line>that the XML document adheres to a specific set of rules and helps avoid errors.
+<break>
+Talk about apache Virtual Hosts
+<break>
+A single server can present more than one website each with its own set of configurations specified in VirtualHost config blocks, selected by either name or ip address.
+<break>
+Give a Virtual Host Example:
+<break>
+<VirtualHost *:80> --matches requests on all ip addresses<line>
+   ServerAdmin root@example.com<line>
+   ServerName www.example.com<line>
+   ServerAlias example.com<line>
+   DocumentRoot /home/www/example<line>
+   ErrorLog logs/example.com<line>
+</VirtualHost>
+<break>
+Give apache access control require conditions
+<break>
+"Require all granted"<line>
+"Require all denied"<line>
+"Require host *name*" e.g."Require host kent.ac.uk"<line>
+"Require ip *range*" e.g."Require ip 129.12"<line>
+"Require not host *name*"<line>
+alternatively you can use <if>...</if><line>
+The above conditions can be grouped into one of three:<line> <RequireAll>, <RequireAny>, and <RequireNone><line>
+
+<break>
+Given the following CodeIgniter URL:<line> www.example.com/index.php/sports/tennis/rackets<line> Explain how it works
+<break>
+The url is split into "slugs" which are the following:<line>domain/index.php/controllername/function/argument1
+<break>
+Explain what a namespace is and how it is used in XML documents.
+<break>
+A namespace is a set of names in which all names are unique and<line>
+it is used to avoid name clashes when an XML document uses e.g., two
+schemas.
+<break>
+Explain what synchronous/asynchronous interations <line>mean in the context of AJAX
+<break>
+Synchonous: request is sent from client to sever and<line> then the client will pause execution and wait for a <line>reply
+<line><line>
+Asynchronous: Client sends a request and then <line>continues executing code.<line>
+The reply is then treated as an event and will be <line>scheduledto handle it.
